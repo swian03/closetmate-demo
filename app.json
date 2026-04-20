@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "衣橱管家 ClosetMate",
+    "slug": "closetmate",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#fff6fb"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourcompany.closetmate"
+    },
+    "android": {
+      "package": "com.yourcompany.closetmate",
+      "adaptiveIcon": {
+        "backgroundColor": "#fff6fb"
+      }
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "允许 ClosetMate 读取你的照片，用于上传衣物图片。",
+          "cameraPermission": "允许 ClosetMate 使用相机拍摄衣物图片。"
+        }
+      ],
+      "expo-font"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "replace-with-your-eas-project-id"
+      }
+    }
+  }
+}

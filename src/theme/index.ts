@@ -1,0 +1,30 @@
+export const colors = {
+  primary: '#E95D87',
+  primaryDeep: '#C94773',
+  primarySoft: '#FFF0F5',
+  primaryTint: '#FFE4EE',
+  secondary: '#6C7BFF',
+  success: '#2AA876',
+  successSoft: '#EAF8F3',
+  warning: '#FF9F43',
+  danger: '#EA5455',
+  background: '#FFF8FB',
+  backgroundTint: '#FFF3F8',
+  surface: '#FFFFFF',
+  surfaceAlt: '#F8F4F6',
+  surfaceSoft: '#FFFDFE',
+  text: '#1F2937',
+  textMuted: '#6B7280',
+  border: '#F0DDE4',
+  borderStrong: '#EBC9D5',
+  shadow: '#D76088',
+  white: '#FFFFFF',
+};
+
+export const cardShadow = {
+  shadowColor: colors.shadow,
+  shadowOpacity: 0.08,
+  shadowRadius: 16,
+  shadowOffset: { width: 0, height: 10 },
+  elevation: 4,
+};

@@ -1,0 +1,6 @@
+.expo
+.env
+.env.local
+node_modules
+dist
+web-build
